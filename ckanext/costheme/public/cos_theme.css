@@ -1,0 +1,218 @@
+
+
+/* =====================================================
+   The "account masthead" bar across the top of the site
+   ===================================================== */
+
+.account-masthead {
+    background-color: #1b2d38;
+}
+/* The "bubble" containing the number of new notifications. */
+.account-masthead .account .notifications a span {
+  background-color: black;
+}
+/* The text and icons in the user account info. */
+.account-masthead .account ul li a {
+  color: rgb(255, 255, 255);
+}
+/* The user account info text and icons, when the user's pointer is hovering
+   over them. */
+.account-masthead .account ul li a:hover {
+  color: white;
+  background-color: #0a1116;
+}
+
+
+/* ========================================================================
+   The main masthead bar that contains the site logo, nav links, and search
+   ======================================================================== */
+
+.masthead {
+  background-color: #1b2d38;
+}
+/* The "navigation pills" in the masthead (the links to Datasets,
+   Organizations, etc) when the user's pointer hovers over them. */
+.masthead .navigation .nav-pills li a:hover {
+  background-color: #1b2d38;
+  color: white;
+}
+/* The "active" navigation pill (for example, when you're on the /dataset page
+   the "Datasets" link is active). */
+.masthead .navigation .nav-pills li.active a {
+  background-color: #0a1116;
+}
+/* The "box shadow" effect that appears around the search box when it
+   has the keyboard cursor's focus. */
+.masthead input[type="text"]:focus {
+  -webkit-box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.7);
+}
+
+
+/* ===========================================
+   The content in the middle of the front page
+   =========================================== */
+
+
+
+div.row.row1 div.span6.col1 {
+  width: 50%;
+} 
+
+div.row.row1 div.span6.col2 {
+  width: 50%;
+  margin: 0px;
+} 
+
+.media-image img {
+  width: 100%;
+  max-height: 500px;
+}
+
+div.module-content.box {
+  padding: 0px;
+}
+
+div.row.row1{
+  background-color: #1b2d38;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+div.span6.col1 {
+  margin: 0px;
+}
+
+div.span6.col2 {
+  position: inherit !important;
+  padding: 0px;
+}
+
+.homepage .module-search {
+  padding: 0px;
+}
+
+div.module.module-search.module-narrow.module-shallow.box {
+  margin: 0px;
+}
+
+form.module-content.search-form {
+  background-color: #1b2d38 !important;
+}
+
+.search-input {
+  border-radius: 0px;
+}
+
+
+div.row {
+  margin: 0px;
+}
+
+div[role=main].hero {
+  background: white;
+  border-top: solid 40px white;
+  min-height: 300px;
+}
+
+div[role=main] {
+  background: white;
+  border; none;
+}
+
+li.dataset-item div.dataset-content {
+  margin-bottom: 15px;
+  border-bottom: solid 1px white;
+  padding-bottom: 15px;
+}
+
+.module-shallow .module-content:first-child {
+  border: none;
+}
+
+.module:first-child .module-heading {
+  border-radius: 0px 0 0 0;
+}
+
+.box li {
+  background-color: #EEEEEE;
+}
+
+header.module-heading {
+  background-color: #091216;
+}
+
+.group-list .module-heading h3 a {
+  color: white;
+}
+
+.tag {
+  background-color: #16780f;
+  border: none;
+  border-radius: 0px;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 0 0 0;
+  margin: 0px 3px 3px 0px !important;
+  box-shadow: 0px !important;
+}
+
+.tag:hover {
+    margin: 0px 3px 3px 0px !important;
+    border: 0px;
+}
+
+
+
+/* Remove the "box shadow" effect around various boxes on the page. */
+.box {
+  box-shadow: none;
+  border: none;
+}
+
+/* Remove the borders around the "Welcome to CKAN" and "Search Your Data"
+   boxes. */
+.hero .box {
+  border: none;
+}
+/* Change the colors of the "Search Your Data" box. */
+/*.homepage .module-search .module-content {
+  color: rgb(68, 68, 68);
+  background-color: white;
+  
+}
+/* Change the background color of the "Popular Tags" box. */
+.homepage .module-search .tags {
+  background-color: #1b2d38;
+
+}
+/* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
+   and "Search Your Data" boxes line up. */
+.module-content:last-child {
+  padding-bottom: 0px;
+}
+
+
+/* Add a border line between the top and bottom halves of the front page. */
+
+
+
+/* ====================================
+   The footer at the bottom of the site
+   ==================================== */
+
+.site-footer,
+body {
+  background-color: #1b2d38;
+}
+/* The text in the footer. */
+.site-footer,
+.site-footer label,
+.site-footer small {
+  color: white;
+}
+/* The link texts in the footer. */
+.site-footer a {
+  color: white;
+}
