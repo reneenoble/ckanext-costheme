@@ -12,8 +12,76 @@
 } 
 
 body {
-  font-family: 'swiss_721light';
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 }
+
+.row, .wrapper, .box, div.row.wrapper {
+      border-radius: 0px 0 0 0;
+      box-shadow: none;
+}
+
+div.row.wrapper {
+      border-radius: 0px 0 0 0;
+      box-shadow: 0px!important;
+}
+
+p {
+  font: normal 75%/1.5em "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.917em;
+}
+
+h1 {
+  font: normal 75%/1.5em "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.333333333em;
+  font-weight: bold;
+  color: #333333!important;
+}
+
+h2 {
+  font: normal 75%/1.5em "Helvetica Neue", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333!important;
+}
+
+h3 {
+  font: normal 75%/1.5em "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px
+  font-weight: bold;
+  color: #333333!important;
+}
+
+a {
+
+  font-weight: bold!important;
+    border-radius: 0px 0 0 0!important;
+
+}
+
+.homepage.module-search.module-content.heading {
+  font: normal 75%/1.5em "Helvetica Neue", Arial, sans-serif;
+  font-size: 24px!important;
+  font-weight: bold; 
+}
+
+.homepage .module-search .tags h3, .homepage .module-search .tags .tag{
+  font: normal 75%/1.5em "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px!important;
+
+}
+
+.module-search h3 {
+  color: white!important;
+}
+
+.btn {
+  background-color: #16780f!important;
+  background-image: linear-gradient(to bottom, #16780f, #16780f);
+  border-radius: 0px 0 0 0;
+  border: none;
+
+}
+
 
 
 /* =====================================================
@@ -36,6 +104,10 @@ body {
 .account-masthead .account ul li a:hover {
   color: white;
   background-color: #0a1116;
+}
+
+.nav.nav-pills a {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
@@ -137,19 +209,52 @@ div[role=main] {
   border; none;
 }
 
-li.dataset-item div.dataset-content {
+header.module-heading {
+  padding: 10px!important;
+}
+
+header.module-heading p {
+  color: white;
+}
+
+
+.media-heading {
+  padding: 0px!important;
+  margin: 0px;
+}
+
+
+.module-shallow li.dataset-item div.dataset-content {
   margin-bottom: 15px;
   border-bottom: solid 1px white;
   padding-bottom: 15px;
+}
+
+
+li.dataset-item {
+  border-bottom: solid 1px #EEEEEE; 
 }
 
 .module-shallow .module-content:first-child {
   border: none;
 }
 
+
+.module-shallow .module-content {
+  padding-top: 0px;
+}
+
+.serach-form {
+  border-bottom: solid 1px #EEEEEE;   
+}
+
 .module:first-child .module-heading {
   border-radius: 0px 0 0 0;
 }
+
+.search-form {
+    border-bottom: solid 1px #EEEEEE; 
+} 
 
 .box li {
   background-color: #EEEEEE;
@@ -157,6 +262,7 @@ li.dataset-item div.dataset-content {
 
 header.module-heading {
   background-color: #091216;
+  border-bottom: solid 1px #EEEEEE; 
 }
 
 .group-list .module-heading h3 a {
@@ -168,10 +274,16 @@ header.module-heading {
   border: none;
   border-radius: 0px;
   color: white;
-  font-weight: bold;
+  font-weight: normal!important;
   border-radius: 0 0 0 0;
   margin: 0px 3px 3px 0px !important;
   box-shadow: 0px !important;
+  border: 0px!important;
+}
+
+div.tags h3 {
+    float: none!important;
+    color: white!important;
 }
 
 .tag:hover {
@@ -179,6 +291,11 @@ header.module-heading {
     border: 0px;
 }
 
+.tag-buttons {
+  margin-left: 8px;
+  margin-top: 4px;
+
+}
 
 
 /* Remove the "box shadow" effect around various boxes on the page. */
@@ -201,12 +318,23 @@ header.module-heading {
 /* Change the background color of the "Popular Tags" box. */
 .homepage .module-search .tags {
   background-color: #1b2d38;
-
+  float: none;
 }
+
+.homepage .module-search .tags {
+  background-color: #1b2d38;
+  float: none;
+}
+
 /* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
    and "Search Your Data" boxes line up. */
 .module-content:last-child {
   padding-bottom: 0px;
+}
+
+.pill {
+  border-radius: 0px 0 0 0;
+  background-color: #16780f;
 }
 
 

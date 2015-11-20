@@ -4,7 +4,7 @@
     <header>
     {% if intro %}
       <h2>
-        {{ h.render_markdown(intro) }}
+        {{ g.site_intro_text }}
       </h2>
     {% else %}
       <h1 class="page-heading">{{ _("Welcome to CKAN") }}</h1>
