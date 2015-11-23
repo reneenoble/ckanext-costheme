@@ -12,7 +12,8 @@
 } 
 
 body {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-color: white;
 }
 
 .row, .wrapper, .box, div.row.wrapper {
@@ -46,7 +47,7 @@ h2 {
 
 h3 {
   font: normal 75%/1.5em "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px
+  font-size: 18px;
   font-weight: bold;
   color: #333333!important;
 }
@@ -54,8 +55,17 @@ h3 {
 a {
 
   font-weight: bold!important;
-    border-radius: 0px 0 0 0!important;
+  border-radius: 0px 0 0 0!important;
+  color: rgb(0, 79, 113);
+}
 
+section#dataset-resources.resources {
+  padding-top: 10px;
+}
+
+.tag-list {
+  background-color: white;
+  border: 0px;
 }
 
 .homepage.module-search.module-content.heading {
@@ -70,6 +80,10 @@ a {
 
 }
 
+.nav-tabs>li>a, .nav-tabs li.active a {
+  color: rgb(0, 79, 113);
+}
+
 .module-search h3 {
   color: white!important;
 }
@@ -78,10 +92,21 @@ a {
   background-color: #16780f!important;
   background-image: linear-gradient(to bottom, #16780f, #16780f);
   border-radius: 0px 0 0 0;
+  color: white;
+  text-shadow: none;
   border: none;
+  font-weight: 400px!important;
 
 }
 
+button.btn.btn-navbar {
+  background-color: #1b2d38!important;
+}
+
+
+div, form {
+   border-radius: 0px 0 0 0!important; 
+}
 
 
 /* =====================================================
@@ -140,15 +165,20 @@ a {
 /* ===========================================
    The content in the middle of the front page
    =========================================== */
-
+div.span6 {
+  float: one;
+  width: 100%;
+  margin: 0px;
+  margin-top: 40px;
+}
 
 
 div.row.row1 div.span6.col1 {
-  width: 50%;
+  width: 64.4%;
 } 
 
 div.row.row1 div.span6.col2 {
-  width: 50%;
+  width: auto;
   margin: 0px;
 } 
 
@@ -200,7 +230,6 @@ div.row {
 
 div[role=main].hero {
   background: white;
-  border-top: solid 40px white;
   min-height: 300px;
 }
 
@@ -297,6 +326,10 @@ div.tags h3 {
 
 }
 
+.front-intro {
+  padding: 10px;
+}
+
 
 /* Remove the "box shadow" effect around various boxes on the page. */
 .box {
@@ -346,9 +379,12 @@ div.tags h3 {
    The footer at the bottom of the site
    ==================================== */
 
-.site-footer,
-body {
+.site-footer {
   background-color: #1b2d38;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 /* The text in the footer. */
 .site-footer,
