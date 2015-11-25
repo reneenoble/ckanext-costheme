@@ -370,6 +370,13 @@ div.tags h3 {
   background-color: #16780f;
 }
 
+.dashboard-grid li.box .module-heading {
+  background-color: rgb(246, 246, 246);
+}
+
+.dashboard-grid li {
+  border: solid 5px rgb(246, 246, 246);
+}
 
 /* Add a border line between the top and bottom halves of the front page. */
 
