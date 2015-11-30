@@ -264,6 +264,21 @@ li.dataset-item {
   border-bottom: solid 1px #EEEEEE; 
 }
 
+li.dataset-item:last-child {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #EEEEEE;
+}
+
+section.module div.module-content:last-child {
+  
+  padding-top: 0px;
+
+}
+
+div.primary.span9 {
+  padding-top: 20px;
+}
+
 .module-shallow .module-content:first-child {
   border: none;
 }
@@ -377,6 +392,11 @@ div.tags h3 {
 .dashboard-grid li {
   border: solid 5px rgb(246, 246, 246);
 }
+
+div.form-actions {
+  padding-bottom: 20px;
+}
+
 
 /* Add a border line between the top and bottom halves of the front page. */
 
