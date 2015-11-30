@@ -103,6 +103,9 @@ button.btn.btn-navbar {
   background-color: #1b2d38!important;
 }
 
+.btn:hover, .btn:focus {
+  color: white;
+}
 
 div, form {
    border-radius: 0px 0 0 0!important; 
@@ -345,6 +348,13 @@ div.tags h3 {
   padding: 10px;
 }
 
+div.image {
+  padding-top: 20px;
+}
+
+img {
+    border-radius: 0px 0 0 0!important;
+}
 
 /* Remove the "box shadow" effect around various boxes on the page. */
 .box {
