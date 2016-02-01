@@ -8,8 +8,31 @@
          url('/fonts/swiss_721_light-webfont.svg#swiss_721light') format('svg');
     font-weight: normal;
     font-style: normal;
-
+  font-family:"Swiss911 UCm BT";
+  src:url('/fonts/Swiss911UltraCompressedBT.ttf') format('truetype');
 } 
+
+.title1, .title2 .title3{
+box-sizing: border-box;
+cursor: auto;
+display: inline;
+font-family: Swiss911 UCm BT, sans-serif;
+font-size: 37.8px;
+height: auto;
+letter-spacing: -1x;
+line-height: 37.8px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+text-align: left;
+font-weight: normal;
+/*text-transform: uppercase;*/
+display: inline-block;
+}
+.title1 {
+  color: rgb(22, 120, 15) !important;
+  padding-right: 10px;
+}
 
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -183,8 +206,7 @@ div.row.row1 div.span6.col1 {
 } 
 
 div.row.row1 div.span6.col2 {
-  width: auto;
-  margin: 0px;
+
 } 
 
 .media-image img {
@@ -210,6 +232,9 @@ div.span6.col1 {
 div.span6.col2 {
   position: inherit !important;
   padding: 0px;
+  width: auto;
+  margin: 0px;
+  min-width: 35.6%
 }
 
 .homepage .module-search {
@@ -336,9 +361,11 @@ div.tags h3 {
     color: white!important;
 }
 
-.tag:hover {
+a.tag:hover {
     margin: 0px 3px 3px 0px !important;
-    border: 0px;
+    border: none;
+    background-color: rgb(15, 84, 10);
+    box-shadow: none;
 }
 
 .tag-buttons {
@@ -380,6 +407,7 @@ img {
 .homepage .module-search .tags {
   background-color: #1b2d38;
   float: none;
+  width: auto;
 }
 
 .homepage .module-search .tags {
@@ -435,4 +463,20 @@ div.form-actions {
 /* The link texts in the footer. */
 .site-footer a {
   color: white;
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+  
+  div.span6.col2 {
+    position: absolute !important;   
+    background-color: #1b2d38;
+    top: 0;
+    right: 0;
+
+    padding: 0px;
+    width: auto;
+    margin: 0px;
+    min-width: 35.6%
+  }
+
 }
