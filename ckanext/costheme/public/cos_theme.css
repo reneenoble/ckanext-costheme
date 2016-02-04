@@ -86,6 +86,29 @@ a {
   color: rgb(0, 79, 113);
 }
 
+a.select2-choice {
+  border-radius: 4px !important;
+  background: white !important;
+  border-color: rgb(204, 204, 204) !important;
+  font-weight: normal!important;
+  line-height: : 20px !important;
+  padding: 4px !important;
+}
+
+.select2-arrow {
+  background: white!important;
+  border: none !important;
+}
+
+.select2-container .select2-choice {
+  height: 20px;
+  line-height: 20px;
+}
+
+.select2-chosen {
+   height: 20px;
+}
+
 section#dataset-resources.resources {
   padding-top: 10px;
 }
