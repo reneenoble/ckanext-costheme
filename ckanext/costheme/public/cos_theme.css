@@ -109,6 +109,15 @@ a.select2-choice {
    height: 20px;
 }
 
+select.inpSelect {
+  //Remove original arrows
+  -webkit-appearance: none; 
+  //Use png at assets/selectArrow.png for the arrow on the right
+  //Set the background color to a BadAss Green color 
+  background: url(select2.png) no-repeat right #BADA55;
+}
+
+
 section#dataset-resources.resources {
   padding-top: 10px;
 }
@@ -282,13 +291,17 @@ div.module.module-search.module-narrow.module-shallow.box {
   margin: 0px;
 }
 
+input.search {
+  border-radius: 0px;
+}
+
 form.module-content.search-form {
   background-color: #1b2d38 !important;
 }
 
 
 
-.search-input {
+.search-input, #field-sitewide-search {
   border-radius: 0px;
 }
 
@@ -483,6 +496,20 @@ div.form-actions {
 
 /* Add a border line between the top and bottom halves of the front page. */
 
+
+
+/* ====================================
+   Dashboard stuff
+   ==================================== */
+
+.dashboard-view li {
+  border: none;
+}
+
+.dashboard-view .module-heading {
+  background: none !important;
+  padding-left: 0px !important;
+}
 
 
 /* ====================================
