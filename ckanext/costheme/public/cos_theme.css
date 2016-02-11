@@ -122,15 +122,62 @@ section#dataset-resources.resources {
   padding-top: 10px;
 }
 
+
+/* =====================================================
+   Anything to do with tags
+   ===================================================== */
+
+
+/* Change the background color of the "Popular Tags" box. */
+.homepage .module-search .tags {
+  background-color: #1b2d38;
+  float: none;
+  width: auto;
+}
+
+.homepage .module-search .tags {
+  background-color: #1b2d38;
+  float: none;
+}
+
+.tag {
+  background-color: #16780f;
+  border: none;
+  /*border-radius: 0px;*/
+  color: white;
+  font-weight: normal!important;
+  /*border-radius: 0 0 0 0;*/
+  margin: 0px 3px 3px 0px !important;
+  box-shadow: 0px !important;
+  /*border: 0px!important;*/
+  box-shadow: none;
+}
+.tag-list li {
+  margin-right: -3px;
+}
+
+div.tags h3 {
+    float: none!important;
+    color: white!important;
+}
+
+a.tag:hover {
+    margin: 0px 3px 3px 0px !important;
+    border: none;
+    background-color: rgb(15, 84, 10);
+    box-shadow: none;
+}
+
+.tag-buttons {
+  margin-left: 8px;
+  margin-top: 4px;
+
+}
+
 .tag-list {
   background-color: white;
   border: 0px;
-}
-
-.homepage.module-search.module-content.heading {
-  font: normal 75%/1.5em "Helvetica Neue", Arial, sans-serif;
-  font-size: 24px!important;
-  font-weight: bold; 
+  box-shadow: none;
 }
 
 .homepage .module-search .tags h3, .homepage .module-search .tags .tag{
@@ -138,6 +185,19 @@ section#dataset-resources.resources {
   font-size: 20px!important;
 
 }
+
+.tag-list a {
+  margin: 0px;
+}
+
+/*=============================================================*/
+
+.homepage.module-search.module-content.heading {
+  font: normal 75%/1.5em "Helvetica Neue", Arial, sans-serif;
+  font-size: 24px!important;
+  font-weight: bold; 
+}
+
 
 .nav-tabs>li>a, .nav-tabs li.active a {
   color: rgb(0, 79, 113);
@@ -395,36 +455,7 @@ header.module-heading {
   color: white;
 }
 
-.tag {
-  background-color: #16780f;
-  border: none;
-  /*border-radius: 0px;*/
-  color: white;
-  font-weight: normal!important;
-  /*border-radius: 0 0 0 0;*/
-  margin: 0px 3px 3px 0px !important;
-  box-shadow: 0px !important;
-  /*border: 0px!important;*/
-  box-shadow: none;
-}
 
-div.tags h3 {
-    float: none!important;
-    color: white!important;
-}
-
-a.tag:hover {
-    margin: 0px 3px 3px 0px !important;
-    border: none;
-    background-color: rgb(15, 84, 10);
-    box-shadow: none;
-}
-
-.tag-buttons {
-  margin-left: 8px;
-  margin-top: 4px;
-
-}
 
 .front-intro {
   padding: 10px;
@@ -455,17 +486,7 @@ img {
   background-color: white;
   
 }
-/* Change the background color of the "Popular Tags" box. */
-.homepage .module-search .tags {
-  background-color: #1b2d38;
-  float: none;
-  width: auto;
-}
 
-.homepage .module-search .tags {
-  background-color: #1b2d38;
-  float: none;
-}
 
 /* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
    and "Search Your Data" boxes line up. */
@@ -497,6 +518,9 @@ div.form-actions {
 /* Add a border line between the top and bottom halves of the front page. */
 
 
+select#field-order-by {
+  border-radius: 0px;
+}
 
 /* ====================================
    Dashboard stuff
@@ -549,3 +573,13 @@ div.form-actions {
   }
 
 }
+
+
+/*input, textarea, select, .select2-input, .select2-drop, .select2-display-none, .lang-dropdown,  .select2-with-searchbox,  .select2-drop-active , .select2-drop-above, a.select2-choice, #s2id_field-lang-select, .select2-container .lang-container , .select2-container,  .select2-dropdown-open,  .select2-container-active, .select2-choices, .select2-chosen, .select2-container, .add-on, .error-block, label, .editor-info-block{
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}*/
