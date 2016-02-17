@@ -218,15 +218,98 @@ a.tag:hover {
 
 }
 
+.btn.btn-danger {
+  background-color: rgb(198, 12, 70)!important;
+}
+
+.btn.btn-danger:hover {
+  background-color: #f53d77!important;
+}
+
 button.btn.btn-navbar {
   background-color: #1b2d38!important;
 }
 
-.btn:hover, .btn:focus {
-  color: white;
+button.btn {
+  border-radius: 0px!important;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] , .btn.hover {
+  color: white!important;
   background-color: #30778d!important;
   background-image: none;
 }
+
+.table {
+  border-radius: 0px;
+}
+
+.label {
+  border-radius: 0px;
+}
+
+/*Second page*/
+/*second part*/
+/*li.first li.complete {
+  background: pink; 
+}
+
+.stages li.active .highlight {
+  background: rgb(193,216,47); 
+}
+
+.stages li.active:after {
+  border-top-color: rgb(193,216,47);
+  border-bottom-color: rgb(193,216,47); 
+}
+
+.stages li.complete .highlight {
+  background: grey;
+}
+
+.stages li.complete:after {
+  border-top-color: grey;
+  border-bottom-color: grey;
+}
+
+.first .complete {
+  background: black!important;
+}*/
+
+
+.stages li.first.active .highlight{
+background: rgb(0,90,132); 
+}
+
+.stages li.last.complete:after {
+  border-top-color: #B8D2DE;
+  border-bottom-color: #B8D2DE; 
+}
+
+.stages li.last.active:after {
+  border-top-color: rgb(0,90,132);
+  border-bottom-color: rgb(0,90,132); 
+}
+
+.stages li.last.active .highlight{
+background: rgb(0,90,132); 
+}
+
+
+.stages li.first.complete .highlight{
+background: #A3C3D2;
+}
+
+.stages li.last.active:before, .stages li.first.active:before {
+  color: rgb(0,90,132);
+}
+
+.stages li.first.complete:before {
+  color: #A3C3D2;
+}
+
+
+
 
 .cos-login-btn {
   width: 97%;
