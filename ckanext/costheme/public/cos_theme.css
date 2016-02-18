@@ -395,11 +395,20 @@ div, form {
    The content in the middle of the front page
    =========================================== */
 div.span6 {
-  float: one;
+  /*float: none;*/
   width: 100%;
   margin: 0px;
   margin-top: 40px;
 }
+
+div.row2 div.span6 {
+  width: 100%;
+  margin: 0px;
+  margin-top: 40px;
+  top: auto;
+  right: auto;
+}
+
 
 
 div.row.row1 div.span6.col1 {
@@ -667,7 +676,7 @@ select#field-order-by {
 
 @media (min-width: 768px) and (max-width: 979px){
   
-  div.span6.col2 {
+  div.row1 div.span6.col2 {
     position: absolute !important;   
     background-color: #1b2d38;
     top: 0;
@@ -678,6 +687,15 @@ select#field-order-by {
     margin: 0px;
     min-width: 35.6%;
   }
+
+  div.row2 div.span6 {
+    width: 100%;
+    margin: 0px;
+    margin-top: 40px;
+    top: initial;
+    right: initial;
+  }
+
 }
 
 .external-login {
