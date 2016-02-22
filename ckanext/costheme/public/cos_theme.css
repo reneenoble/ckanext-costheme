@@ -707,6 +707,10 @@ select#field-order-by {
   margin-top: 0px;
 }
 
+div.module-content.external-login div.form-actions {
+  margin-right: -10px;
+}
+
 /*.page-header {
   padding: 0px !important;
   margin: 0px !important;
