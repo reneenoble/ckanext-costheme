@@ -311,7 +311,8 @@ background: #A3C3D2;
 
 
 
-.cos-login-btn {
+a.cos-login-btn {
+  /*width: 97%;*/
   width: 97%;
   font-size: 24px;
   line-height: 30px;
@@ -319,7 +320,9 @@ background: #A3C3D2;
   /*margin-bottom: 15px;*/
   padding: 10px;
   margin-right: 15px;
-  background-color: rgb(27, 45, 56) !important;
+  margin-bottom: 15px;
+
+  /*background-color: rgb(27, 45, 56) !important;*/
 }
 
 /*.cos-login-btn img {
@@ -327,11 +330,11 @@ background: #A3C3D2;
   max-width: 100%
 }*/
 
-.cos-login-btn:focus , .cos-login-btn:hover {
-  /*background-color: #0a1116 !important;*/
+/*.cos-login-btn:focus , .cos-login-btn:hover {
+  background-color: #0a1116 !important;
   background-color: rgb(27, 45, 56) !important;
   color: rgb(122, 193, 67);
-}
+}*/
 
 div, form {
    border-radius: 0px 0 0 0!important; 
